@@ -116,6 +116,42 @@ figcaption {
   transition: opacity 0.8s ease-in-out;
 }
 
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex .slot{
+  flex-basis: 100%;
+  padding: 10px;
+}
+
+.progressContainer{
+  flex-basis: 100%;
+}
+.progress{
+  position: relative;
+  width: 100%;
+  height: 25px;
+}
+
+.progress .bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #000099;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+.progress .value{
+  position: relative;
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+}
+
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
@@ -128,6 +164,10 @@ figcaption {
     
       .mobile {
         display: none;
+      }
+
+      .flex .slot{
+        flex-basis: 50%;
       }
 }
 
