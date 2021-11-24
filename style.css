@@ -115,7 +115,7 @@ figcaption {
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
 }
-
+/** Module Flex*/
 .flex{
   display: flex;
   flex-wrap: wrap;
@@ -125,7 +125,7 @@ figcaption {
   flex-basis: 100%;
   padding: 10px;
 }
-
+/** Module Progress Bar*/
 .progressContainer{
   flex-basis: 100%;
 }
@@ -150,6 +150,17 @@ figcaption {
   width: 100%;
   text-align: center;
   z-index: 2;
+}
+
+/** audio player*/
+/** ask TC about sticky instead of fixed. Keira also wants this.*/
+.audioPlayer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  z-index: 3;
+  border: 0;
 }
 
 /*********************************************************************
