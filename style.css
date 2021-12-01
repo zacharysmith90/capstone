@@ -20,7 +20,12 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
+
+
+
 /** RESPONSIVE IMAGES */
 figure,
 img {
@@ -31,7 +36,35 @@ img {
 }
 
 p {
-  line-height: 1.2em;
+  line-height: 1.7em;
+}
+
+blockquote{
+  font-size: 2em;
+  position: relative;
+}
+blockquote:before{
+  content: '\201c';
+  font-size: 2em;
+  position: absolute;
+  top: -20px;
+  left: -35px;
+}
+blockquote:after{
+  content: '\201d';
+  font-size: 2em;
+  position: absolute;
+  bottom: -20px;
+  right: 35px;
+}
+
+h1{
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: 700;
 }
 /** Caption styles */
 .caption,
@@ -53,6 +86,10 @@ figcaption {
 .container.image {
   max-width: 1200px;
   padding: 0;
+}
+
+.container.relative{
+  position: relative;
 }
 
 .container.image .caption,
@@ -115,17 +152,27 @@ figcaption {
   opacity: 0;
   transition: opacity 0.8s ease-in-out;
 }
+
+.module{
+  align-items: center;
+}
+
 /** Module Flex*/
 .flex{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .flex .slot{
   flex-basis: 100%;
-  padding: 10px;
+  padding: 10px 10px 10px 0;
 }
-/** Module Progress Bar*/
+
+.flex .slot.main{
+  padding: 10px 0 10px 10px;
+}
+/** Module Progress Bar, see how much you can life from Newsweeks design*/
 .progressContainer{
   flex-basis: 100%;
 }
@@ -140,7 +187,7 @@ figcaption {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #000099;
+  background-color: #822600;
   width: 0;
   transition: width 0.5s ease-in-out;
 }
@@ -148,17 +195,35 @@ figcaption {
 .progress .value{
   position: relative;
   width: 100%;
-  text-align: center;
+  text-align: right;
   z-index: 2;
+}
+
+.btn{
+  padding: 10px 20px;;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  border: 2px solid #822600;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #822600;
+  color: white;
 }
 
 /** audio player*/
 /** ask TC about sticky instead of fixed. Keira also wants this.*/
 .audioPlayer {
-  position: fixed;
-  bottom: 0;
+  position: sticky;
+  top: 0;
   width: 100%;
-  height: 150px;
+  height: 75px;
   z-index: 3;
   border: 0;
 }
