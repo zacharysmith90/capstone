@@ -11,7 +11,7 @@ window.odometerOptions = {
 const module = {
     current_slide: 0,
     slides: [{
-        title: "The Journey to $104,000",
+        title: "The Journey to $105,000",
         description: "It is February 24, 2020. Tomorrow it begins. ",
         total_cost: 0,
         slide_cost: 0,
@@ -179,7 +179,7 @@ const module = {
         // module.querySelector(".progressContainer .value span").innerHTML = slide.progress;
         module.querySelector("h3").innerHTML = slide.title;
         module.querySelector("p").innerHTML = slide.description;
-        module.querySelector(".main .cost span").innerHTML = slide.slide_cost;
+        module.querySelector(".main .cost span").innerHTML = slide.slide_cost.toLocaleString();
     }
 };
 

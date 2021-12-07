@@ -58,6 +58,10 @@ blockquote:after{
   right: 35px;
 }
 
+blockquote.first{
+  margin-top: 0;
+}
+
 h1{
   font-weight: 900;
   letter-spacing: 2px;
@@ -84,16 +88,26 @@ figcaption {
   margin: 0 auto;
 }
 
-.container2 {
+.container.top {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+
+}
+
+.header {
   width: 100%;
-  max-width: 800px;
-  padding: 0px;
+  display: block;
   margin: 0 auto;
+}
+
+.byline, .kicker {
+  font-size: 1.2rem;
 }
 
 /** Images are allowed to be a little wider when broken out into their own container */
 .container.image {
-  max-width: 1200px;
+  max-width: 1280px;
   padding: 0;
 }
 
@@ -162,6 +176,10 @@ figcaption {
   transition: opacity 0.8s ease-in-out;
 }
 
+.container.chart, .module {
+  padding: 10px 0;
+}
+
 .module{
   align-items: center;
 }
@@ -180,6 +198,18 @@ figcaption {
 
 .flex .slot.main{
   padding: 10px 0 10px 10px;
+  min-height: 280px;
+  position: relative;
+}
+
+.flex .slot.invested:before{
+  content: "\f073";
+  font-family: FontAwesome;
+}
+
+.flex .slot.cost:before{
+  content: "\f0d6";
+  font-family: FontAwesome;
 }
 /** Module Progress Bar, see how much you can life from Newsweeks design*/
 .progressContainer{
@@ -189,6 +219,11 @@ figcaption {
   position: relative;
   width: 100%;
   height: 25px;
+}
+
+.buttonBar{
+  position:absolute;
+  bottom: 11px;
 }
 
 .progress .bar{
