@@ -42,6 +42,7 @@ p {
 blockquote{
   font-size: 2em;
   position: relative;
+  margin-top: 0;
 }
 blockquote:before{
   content: '\201c';
@@ -54,12 +55,12 @@ blockquote:after{
   content: '\201d';
   font-size: 2em;
   position: absolute;
-  bottom: -20px;
+  bottom: -40px;
   right: 35px;
 }
 
-blockquote.first{
-  margin-top: 0;
+.clip {
+  padding: 5px;
 }
 
 h1{
@@ -113,6 +114,14 @@ figcaption {
 
 .container.relative{
   position: relative;
+  padding-bottom: 20px;
+  padding-top: 0px;
+}
+
+.container.relative.clip{
+  position: relative;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .container.image .caption,
@@ -136,27 +145,6 @@ figcaption {
 .screen.padd {
   padding-top: 25%;
 }
-/** video setup */
-.video {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: calc(9 / 16 * 100%);
-}
-
-.video.vertical {
-  padding-bottom: calc(16 / 9 * 100%);
-}
-
-.video iframe,
-.video video {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border: 0;
-}
 
 .images {
   position: fixed;
@@ -178,10 +166,16 @@ figcaption {
 
 .container.chart, .module {
   padding: 10px 0;
+
 }
 
 .module{
   align-items: center;
+}
+
+.odometer, .hed{
+  font-weight: bold;
+  font-size: large;
 }
 
 /** Module Flex*/
@@ -211,7 +205,7 @@ figcaption {
   content: "\f0d6";
   font-family: FontAwesome;
 }
-/** Module Progress Bar, see how much you can life from Newsweeks design*/
+/** Module Progress Bar*/
 .progressContainer{
   flex-basis: 100%;
 }
@@ -262,8 +256,9 @@ figcaption {
 }
 
 /** audio player*/
-/** ask TC about sticky instead of fixed. Keira also wants this.*/
+/** Make the Audio Sticky*/
 .audioPlayer {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   width: 100%;

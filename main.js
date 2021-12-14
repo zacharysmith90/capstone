@@ -19,7 +19,7 @@ const module = {
         days_invested: 0,
     },{
         title: "First semen analysis",
-        description: "TKTKTKTK",
+        description: "First time coming out of pocket for this.  It was a long trip to Long Island to beat off in a cup.  First time of many no sperm reports",
         total_cost: 0,
         slide_cost: 127.10,
         progress: 1,
@@ -27,7 +27,7 @@ const module = {
         
     },{
         title: "First visit with my urologist",
-        description: "TKTKTKTKTKTK",
+        description: "The road to fertility officially begins here",
         total_cost: 3579.55,
         slide_cost: 3452.45,
         progress: 3,
@@ -35,7 +35,7 @@ const module = {
         
     },{
         title: "Urologist Mandated Fertlity Clinic Semen Analysis",
-        description: "TKTKTKTKTK",
+        description: "First time I gave a semen sample in a place specifically designed for fertility.  Here I noticed I was the only Black man in the facility",
         total_cost: 4220.55,
         slide_cost: 641,
         progress: 4,
@@ -43,7 +43,7 @@ const module = {
         
     },{
         title: "Testicle Ultrasound",
-        description: "TKTKTKTKTKTKTKT",
+        description: "To see the extent of varicocele in testicle before varicocelectomy",
         total_cost: 7197.03,
         slide_cost: 2976.48,
         progress: 6,
@@ -67,7 +67,7 @@ const module = {
         
     },{
         title: "Varicocelectomy Surgery",
-        description: "TKTKTKTK",
+        description: "Cutting varicocele in testicle to increase oxygen in hopes of increasing sperm production for future Micro TESE",
         total_cost: 20089.37,
         slide_cost: 9662.00,
         progress: 19,
@@ -139,7 +139,7 @@ const module = {
         
     },{
         title: "Frozen embryo Transfer",
-        description: "TKTKTKTKTKTKTKTK",
+        description: "One of the big moments we have waited for, as we had the appointment for the first of 6 embryos that can be implanted",
         total_cost: 103879.74,
         slide_cost: 7457.00,
         progress: 98,
@@ -147,7 +147,7 @@ const module = {
         
     },{
         title: "Follow Up Bloodwork",
-        description: "TKTKTKTKTKTKTKTK",
+        description: "Bloodwork taken after the embryo transfer to get the pregnancy results",
         total_cost: 104226.74,
         slide_cost: 347,
         progress: 99,
