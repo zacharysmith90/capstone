@@ -55,7 +55,7 @@ blockquote:after{
   content: '\201d';
   font-size: 2em;
   position: absolute;
-  bottom: -40px;
+  bottom: -30px;
   right: 35px;
 }
 
@@ -136,6 +136,12 @@ figcaption {
 .mobile {
   display: block;
 }
+
+.TJ {
+  max-width: 250px;
+  padding: 0;
+  
+}
 /** Screens are the size of at least one device screen */
 .screen {
   width: 100%;
@@ -209,6 +215,18 @@ figcaption {
 .progressContainer{
   flex-basis: 100%;
 }
+
+.flex-image {
+  margin-bottom: 5px;
+}
+
+.flex-pic {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
 .progress{
   position: relative;
   width: 100%;
@@ -284,6 +302,18 @@ figcaption {
       .flex .slot{
         flex-basis: 50%;
       }
+
+      .flex-pic {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: justify;
+    }
+
+    .flex-image {
+        flex-basis: 65%;
+    }
+}
 }
 
 /*********************************************************************

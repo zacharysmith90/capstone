@@ -12,30 +12,30 @@ const module = {
     current_slide: 0,
     slides: [{
         title: "The Journey to $105,000",
-        description: "It is February 24, 2020. Tomorrow it begins. ",
+        description: "The road to fertility is a long and costly one. It all starts tomorrow.",
         total_cost: 0,
         slide_cost: 0,
         progress: 0,
         days_invested: 0,
     },{
         title: "First semen analysis",
-        description: "First time coming out of pocket for this.  It was a long trip to Long Island to beat off in a cup.  First time of many no sperm reports",
-        total_cost: 0,
+        description: "First expense that came out of pocket. It was a long trip to the clinic in Long Island to receive my first report of no sperm.",
+        total_cost: 127.10,
         slide_cost: 127.10,
         progress: 1,
         days_invested: 1,
         
     },{
         title: "First visit with my urologist",
-        description: "The road to fertility officially begins here",
+        description: "The road to find an alternative method of having a child officially begins here.",
         total_cost: 3579.55,
         slide_cost: 3452.45,
         progress: 3,
         days_invested: 87,
         
     },{
-        title: "Urologist Mandated Fertlity Clinic Semen Analysis",
-        description: "First time I gave a semen sample in a place specifically designed for fertility.  Here I noticed I was the only Black man in the facility",
+        title: "Urologist Mandated Semen Analysis",
+        description: "This was the first time I gave a semen sample in a clinic specializing in fertility and noticed I was the only Black man in the facility.",
         total_cost: 4220.55,
         slide_cost: 641,
         progress: 4,
@@ -43,15 +43,15 @@ const module = {
         
     },{
         title: "Testicle Ultrasound",
-        description: "To see the extent of varicocele in testicle before varicocelectomy",
+        description: "This is a diagnostic test that detects and evaluates  varicose veins within the scrotum, and in preparation of the varicocelectomy.",
         total_cost: 7197.03,
         slide_cost: 2976.48,
         progress: 6,
         days_invested: 119,
         
     },{
-        title: "News of Varicocele",
-        description: "Includes visit to urologist, urine test, and bloodwork",
+        title: "Varicocele Diagnosis",
+        description: "The first harrowing news through this journey. The diagnosis is a varicose vein in my testicle, which is a swollen vein that decreases sperm quality. I will need to  have surgery to increase sperm production.",
         total_cost: 7918.03,
         slide_cost: 721.00,
         progress: 7,
@@ -59,7 +59,7 @@ const module = {
         
     },{
         title: "Pre-Surgical Preparations",
-        description: "Includes chest x-ray, EKG, bloodwork",
+        description: "This is a gauntlet of pre-surgical appointments that includes two doctors, x-rays, EKGs, and blood work.",
         total_cost: 10427.37,
         slide_cost: 2509.34,
         progress: 10,
@@ -67,7 +67,7 @@ const module = {
         
     },{
         title: "Varicocelectomy Surgery",
-        description: "Cutting varicocele in testicle to increase oxygen in hopes of increasing sperm production for future Micro TESE",
+        description: "This procedure removes the varicocele in my testicles to increase oxygen flow and sperm production for a future micro-TESE, a testicular tissue procedure.",
         total_cost: 20089.37,
         slide_cost: 9662.00,
         progress: 19,
@@ -75,39 +75,39 @@ const module = {
         
     },{
         title: "Final Mandated Semen Analysis",
-        description: "Fifth of mandated semen analysis, doctor found no sperm",
+        description: "This was the final semen analysis after the varicocelectomy. No sperm detected once again.",
         total_cost: 21339.37,
         slide_cost: 1250.00,
         progress: 20,
         days_invested: 275,
         
     },{
-        title: "Urologist Perscribe microTESE",
-        description: "Learn of new surgery, bloodwork, urine test",
+        title: "Urologist Perscribe micro-TESE",
+        description: "This is the appointment where I learned about what is taking place with the next procedure.",
         total_cost: 22185.37,
         slide_cost: 846,
         progress: 21,
         days_invested: 290,
         
     },{
-        title: "Pre-surgical procedures",
-        description: "EKG, bloodwork",
+        title: "Pre-surgical prep",
+        description: "This time around they were kind and let me off the hook for the chest x-ray, but I still had to do a EKG and blood work.",
         total_cost: 23883.74,
         slide_cost: 1698.37,
         progress: 22,
         days_invested: 330,
         
     },{
-        title: "microTESE surgery",
-        description: "Anesthesia, surgert, and sperm tissue was frozen",
+        title: "Micro-TESE surgery",
+        description: "This is the most expensive line item in this whole journey. Charges include anesthesia, the surgery, and freezing my testicular tissue.",
         total_cost: 49196.12,
         slide_cost: 25312.38,
         progress: 46,
         days_invested: 336,
         
     },{
-        title: "First visit with wife's endocrinologist",
-        description: "After learning about microTESE results, we opted to go with IVF. Bloodwork, complete blood count",
+        title: "Wife’s First Visit with Endocrinologist",
+        description: "After receiving micro-TESE results we decide to move forward with IVF. Bloodwork was taken.",
         total_cost: 52104.16,
         slide_cost: 2908.04,
         progress: 49,
@@ -115,7 +115,7 @@ const module = {
         
     },{
         title: "Bloodwork and Ultrasounds",
-        description: "Over the course of ten days, four ultrasounds were conducted and 8 bloodtest",
+        description: "Monitoring before my wife’s egg retrieval, a procedure that extracts eggs from her ovaries with a needle that we can use for IVF. Multiple ultrasounds and blood tests were taken over the course of 10 days.",
         total_cost: 63029.66,
         slide_cost: 10925.50,
         progress: 59,
@@ -123,31 +123,31 @@ const module = {
         
     },{
         title: "Egg Retrieval",
-        description: "Egg retrieval, anesthesia, and sperm tissue thawing",
+        description: "The procedure lasted under one hour. Costs include the retrieval of 19 eggs, anesthesia, and thawing of my testicular tissue with the intent of IVF.",
         total_cost: 78497.66,
         slide_cost: 15468.00,
         progress: 74,
         days_invested: 585,
         
     },{
-        title: "Side Effects May Include Ovarian Hyperstimulation Syndrome",
-        description: "Ultrasounds, bloodwork, fluid taps, 24 days of bad reactions",
+        title: "Wife Develops OHSS",
+        description: "My wife’s ovaries swelled with fluids that leaked into her body, causing unexpected visits to the hospital for a week, which included a fluid tap. This condition is called Ovarian Hyperstimulation Syndrome.",
         total_cost: 96422.74,
         slide_cost: 17925.08,
         progress: 91,
         days_invested: 612,
         
     },{
-        title: "Frozen embryo Transfer",
-        description: "One of the big moments we have waited for, as we had the appointment for the first of 6 embryos that can be implanted",
+        title: "Frozen Embryo Transfer",
+        description: "The moment we have waited for. My wife’s egg is fertilized with my sperm that was thawed from my testicular tissue. This appointment marks the first implantation of the six viable embryos.",
         total_cost: 103879.74,
         slide_cost: 7457.00,
         progress: 98,
         days_invested: 617,
         
     },{
-        title: "Follow Up Bloodwork",
-        description: "Bloodwork taken after the embryo transfer to get the pregnancy results",
+        title: "Follow-Up Blood Work",
+        description: "This is the blood work taken after the embryo transfer to get the pregnancy results.",
         total_cost: 104226.74,
         slide_cost: 347,
         progress: 99,
@@ -155,7 +155,7 @@ const module = {
         
     },{
         title: "Strike 1",
-        description: "We learn that it didn't take. We are trying again. Without insurance or medical side effects, this will cost at least another $5,600",
+        description: "We learn that the first implantation didn't take. The next retrieval has a 44 percent success rate. Without insurance or medical side effects, this will cost at least another $8,000.",
         total_cost: 105151.74,
         slide_cost: 925,
         progress: 100,
