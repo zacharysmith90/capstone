@@ -139,8 +139,10 @@ figcaption {
 
 .TJ {
   max-width: 250px;
-  padding: 0;
-  
+  padding-left: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /** Screens are the size of at least one device screen */
 .screen {
@@ -158,6 +160,10 @@ figcaption {
   z-index: 1;
   width: 100%;
   height: 100vh;
+}
+
+.book {
+  font-style: italic;
 }
 
 .images .image {
@@ -218,12 +224,14 @@ figcaption {
 
 .flex-image {
   margin-bottom: 5px;
+  
 }
 
 .flex-pic {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 
