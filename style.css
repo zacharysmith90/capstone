@@ -56,7 +56,7 @@ blockquote:after{
   font-size: 2em;
   position: absolute;
   bottom: -30px;
-  right: 35px;
+  right: -30px;
 }
 
 .clip {
